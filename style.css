@@ -8,15 +8,21 @@ h1 {
     font-family: 'Forum', cursive;
 }
 
-h2 {
-    font-family: 'Forum', cursive;
+h3 {
+    font-family: 'Forum', cursive; 
+    margin-bottom: 0;  
 }
 
-h3 {
+h5 {
     font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    margin-bottom: 20px;
 }
 
 p {
     font-family: 'Red Hat Text', sans-serif;
 }
 
+.nav-link {
+    font-family: 'Forum', cursive;
+}
