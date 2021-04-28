@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Forum&family=Red+Hat+Text&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Forum', cursive;
+}
+
+h2 {
+    font-family: 'Forum', cursive;
+}
+
+h3 {
+    font-family: 'Dosis', sans-serif;
+}
+
+p {
+    font-family: 'Red Hat Text', sans-serif;
+}
