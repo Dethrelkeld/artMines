@@ -1,7 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Forum&family=Red+Hat+Text&display=swap');
 
-* {
+:root {
+    --ff-body: "Red Hat Text", sans-serif;
+    --ff-heading: "Forum", cursive;
+
+    --fs-xl: 5rem;
+    --fs-600: 1.5rem; 
+    --fs-500: 1.25rem;
+    --fs-400: 1rem;
+
+}
+
+*, *::after, *::before {
     box-sizing: border-box;
+}
+
+body {
+    font-family: var(--ff-body);
+    font-size: var(--fs-400);
 }
 
 h1, h2, h3, h4, h5 {
@@ -12,26 +28,27 @@ h1, h2, h3, h4, h5 {
     display: inline-block;
     padding: 1em 2em;
     text-decoration: none;
-    
+
 }
+
+.opener
 
 .title {
     font-family: 'Forum', cursive;
+
 }
 
 .heading {
     font-family: 'Forum', cursive; 
+    font-size: 2rem;
     margin-bottom: 0;  
 }
 
 .subheading {
     font-family: 'Dosis', sans-serif;
     font-style: italic;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
 }
 
-p {
-    font-family: 'Red Hat Text', sans-serif;
-}
 
 
