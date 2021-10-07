@@ -4,16 +4,20 @@
     box-sizing: border-box;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+}
+
+.title {
     font-family: 'Forum', cursive;
 }
 
-h3 {
+.heading {
     font-family: 'Forum', cursive; 
     margin-bottom: 0;  
 }
 
-h5 {
+.subheading {
     font-family: 'Dosis', sans-serif;
     font-style: italic;
     margin-bottom: 20px;
@@ -23,7 +27,4 @@ p {
     font-family: 'Red Hat Text', sans-serif;
 }
 
-.nav-link {
-    font-family: 'Forum', cursive;
-}
 
