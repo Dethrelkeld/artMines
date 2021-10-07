@@ -4,11 +4,34 @@
     --ff-body: "Red Hat Text", sans-serif;
     --ff-heading: "Forum", cursive;
 
+    /* need to figure this out */
+    /* --clr-primary-400: hsl(60 100% 50%);
+    --clr-neutral-900: #2A2927;
+    --clr-neutral-100: hsl(0 0% 100%); */
+
     --fs-xl: 5rem;
     --fs-600: 1.5rem; 
     --fs-500: 1.25rem;
     --fs-400: 1rem;
 
+}
+
+@media (min-width: 40em) {
+    :root {
+        --fs-xl: 7rem;
+        --fs-600: 2rem;
+        --fs-500: 1.5rem;
+        
+    }
+}
+
+@media (min-width: 90em) {
+    :root {
+        --fs-xl: 9rem;
+        --fs-600: 3rem;
+        --fs-500: 2rem;
+        
+    }
 }
 
 *, *::after, *::before {
@@ -18,10 +41,17 @@
 body {
     font-family: var(--ff-body);
     font-size: var(--fs-400);
+    background-color: #FBF9E3;
 }
 
 h1, h2, h3, h4, h5 {
     font-weight: normal;
+    color: #2A2927;
+}
+
+nav {
+    color: #4e462d;
+    background-color: #a6a895;
 }
 
 .btn {
@@ -35,17 +65,21 @@ h1, h2, h3, h4, h5 {
 
 .title {
     font-family: 'Forum', cursive;
+    font-size: var(--fs-xl);
+    margin-top: 0;
+    margin-bottom: 0;
 
 }
 
 .heading {
     font-family: 'Forum', cursive; 
-    font-size: 2rem;
+    font-size: var(--fs-600);
     margin-bottom: 0;  
 }
 
 .subheading {
     font-family: 'Dosis', sans-serif;
+    font-size: var(--fs-500);
     font-style: italic;
     margin-bottom: 1.5rem;
 }
