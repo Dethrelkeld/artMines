@@ -8,6 +8,9 @@
     --clr-olive: #4e462d;
     --clr-blackish: #2A2927;
     --clr-mint: #a6a895;
+    --clr-brown: #8e6d4b;
+    --clr-greyish: #595e53;
+    --clr-light: #fbf9e3;
 
     --fs-xl: 5rem;
     --fs-600: 1.5rem; 
@@ -50,23 +53,25 @@ body {
 
 h1, h2, h3, h4, h5 {
     font-weight: normal;
-    color: var(--clr-olive);
+    color: var(--clr-blackish);
     margin: .5rem .5rem .5rem;
 }
 
 p {
     margin: .5rem .5rem .5rem;
-    color:  var(--clr-olive);
+    color:  var(--clr-blackish);
     text-align: center;
 }
 
 section {
+    padding-top: 2rem;
     margin-bottom: 5rem;
 }
 
 .btn {
     display: inline-block;
-    background-color: var(--clr-mint);
+    background-color: var(--clr-olive);
+    color: var(--clr-light);
     padding: 1em 2em;
     margin: 2rem 2rem 2rem;
     text-decoration: none;
@@ -81,6 +86,18 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.copy {
+    font-size: 1rem;
+    color: var(--clr-light);
+    font-family: var(--ff-heading);
+}
+
+.footer {
+    background-color: var(--clr-greyish);
+    text-align: center;
+    font-family: var(--ff-heading);
 }
 
 .grid-container {
@@ -109,19 +126,19 @@ section {
     text-align: center;
 }
 .opener {
-    
+    margin-bottom: 0;
 }
 
 .title {
-    font-family: 'Forum', cursive;
+    font-family: var(--ff-heading);
     font-size: var(--fs-xl);
     /* color: #8e6d4b; */
-    color:  var(--clr-olive);
+    color:  var(--clr-blackish);
 
 }
 
 .heading {
-    font-family: 'Forum', cursive; 
+    font-family: var(--ff-heading); 
     font-size: var(--fs-600);
     margin-bottom: 0;  
     text-align: center;
@@ -135,9 +152,18 @@ section {
     text-align: center;
 }
 
-#slogan {
+.what {
+    background-color: var(--clr-mint);
+}
+
+.what .heading, .what .subheading, {
     color: var(--clr-olive);
+}
+
+#slogan {
+    color: var(--clr-blackish);
     font-weight: bolder;
+    margin: 3rem 1rem 3rem;
 }
 
 
