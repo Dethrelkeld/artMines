@@ -9,7 +9,7 @@
     --clr-dark: #2A2927;
     --clr-backgrndblock: #cccece;
     --clr-bright: #ffffff;
-    --clr-middle: #484738;
+    --clr-middle: #53534d;
     --clr-light: #f1f1f0;
 
     --fs-xl: 5rem;
@@ -95,10 +95,25 @@ section {
     margin: 0;
 }
 
+.fa {
+    padding: 2em;
+    font-size: 2em;
+    width: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
 .footer {
     background-color: var(--clr-middle);
     text-align: center;
     font-family: var(--ff-heading);
+    padding-top: 1em;
 }
 
 .grid-container {
@@ -109,6 +124,12 @@ section {
     max-width: 100%;
     height: auto;
     
+}
+
+.logo {
+    padding: .5em;
+    margin-bottom: .5em;
+    margin-left: .5rem;
 }
 
 .nav {
@@ -145,6 +166,10 @@ section {
     text-align: center;
 }
 
+.steps {
+    
+}
+
 .subheading {
     font-family: 'Dosis', sans-serif;
     font-size: var(--fs-500);
@@ -163,7 +188,6 @@ section {
 
 #slogan {
     color: var(--clr-dark);
-    font-weight: bolder;
     margin: 3rem 1rem 3rem;
 }
 
