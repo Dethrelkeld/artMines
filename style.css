@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5 {
 }
 
 ol {
-    
+
 }
 
 p {
@@ -86,6 +86,13 @@ section {
     border: none;
     border-radius: .4rem;
     
+}
+
+.card {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--clr-bright);
+    display: grid;
 }
 
 .center {
@@ -123,7 +130,18 @@ section {
 }
 
 .grid-container {
+    display: grid;
+}
 
+.heading {
+    font-family: var(--ff-heading); 
+    font-size: var(--fs-600);
+    margin-bottom: 0;  
+    text-align: center;
+}
+
+.how {
+    background-color: var(--clr-light);
 }
 
 .image {
@@ -157,21 +175,6 @@ section {
     margin-bottom: 0;
 }
 
-.title {
-    font-family: var(--ff-heading);
-    font-size: var(--fs-xl);
-    /* color: #8e6d4b; */
-    color:  var(--clr-dark);
-
-}
-
-.heading {
-    font-family: var(--ff-heading); 
-    font-size: var(--fs-600);
-    margin-bottom: 0;  
-    text-align: center;
-}
-
 .steps {
     font-size: var(--fs-500);
 }
@@ -184,12 +187,25 @@ section {
     text-align: center;
 }
 
+.title {
+    font-family: var(--ff-heading);
+    font-size: var(--fs-xl);
+    /* color: #8e6d4b; */
+    color:  var(--clr-dark);
+
+}
+
 .what {
     background-color: var(--clr-backgrndblock);
 }
 
 .what .heading, .what .subheading, {
     color: var(--clr-text);
+}
+
+.who {
+    background-color: var(--clr-bright);
+    padding-bottom: 5rem;
 }
 
 #slogan {
