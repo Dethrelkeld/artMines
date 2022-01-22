@@ -219,22 +219,28 @@ section {
         
     }
 
+    
     .nav-link {
         font-size: var(--fs-400);
     }
-
+    
     .logos {
         grid-template-columns: 20% 20% 20% 20% 20%;
     }
 }
 
-@media (min-width: 90em) {
+@media (min-width: 60em) {
     :root {
         --fs-xl: 9rem;
         --fs-600: 3rem;
         --fs-500: 1.5rem;
         --fs-400: 1.25rem;
         
+    }
+    
+    .cardwhat {
+        display: grid;
+        grid-template-columns: 40% 60%;
     }
 
     .logos {
