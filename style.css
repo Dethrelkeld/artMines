@@ -43,6 +43,10 @@ i {
     padding: .25rem;
 }
 
+li {
+    padding-bottom: 1rem;
+}
+
 p {
     margin: .5rem .5rem .5rem;
     color:  var(--clr-dark);
@@ -84,10 +88,12 @@ section {
     align-items: center;
 }
 
-.contact {
-    
-    
-    
+.contact h2{
+    color: var(--clr-light); 
+}
+
+.contact p{
+    color: var(--clr-light);
 }
 
 .copy {
@@ -95,6 +101,7 @@ section {
     font-family: var(--ff-heading);
     margin: 0;
     padding-bottom: .5rem;
+    color: var(--clr-light);
 }
 
 .fa {
@@ -108,12 +115,12 @@ section {
 
 .fa-instagram {
     background: var(--clr-middle);
-    color: var(--clr-dark);
+    color: var(--clr-light);
 }
 
 .footer {
     background-color: var(--clr-middle);
-    color: var(--clr-dark);
+    color: var(--clr-light);
     text-align: center;
     font-family: var(--ff-heading);
     padding-top: 3em;
@@ -121,6 +128,7 @@ section {
 
 .footer li{
     list-style-type: none;
+    padding-bottom: 0;
 }
 
 .footer ul{
