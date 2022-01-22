@@ -55,6 +55,8 @@ section {
     margin-bottom: 5rem;
 }
 
+
+
 .btn {
     display: inline-block;
     background-color: var(--clr-middle);
@@ -82,11 +84,17 @@ section {
     align-items: center;
 }
 
+.contact {
+    text-align: left;
+    
+    
+}
+
 .copy {
-    font-size: 1rem;
-    color: var(--clr-light);
+    font-size: .75rem;
     font-family: var(--ff-heading);
     margin: 0;
+    padding-bottom: .5rem;
 }
 
 .fa {
@@ -99,15 +107,25 @@ section {
 }
 
 .fa-instagram {
-    background: #125688;
-    color: white;
+    background: var(--clr-middle);
+    color: var(--clr-dark);
 }
 
 .footer {
     background-color: var(--clr-middle);
+    color: var(--clr-dark);
     text-align: center;
     font-family: var(--ff-heading);
     padding-top: 1em;
+}
+
+.footer li{
+    list-style-type: none;
+}
+
+.footer ul{
+    padding-inline-start: 0;
+    margin: 1rem;
 }
 
 .grid-container {
@@ -144,7 +162,7 @@ section {
 .logos {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
 .nav {
@@ -171,6 +189,10 @@ section {
 }
 .opener {
     margin-bottom: 0;
+}
+
+.social {
+    margin-bottom: 2rem;
 }
 
 .steps {
