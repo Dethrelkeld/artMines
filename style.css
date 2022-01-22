@@ -205,6 +205,10 @@ section {
     margin-bottom: 0;
 }
 
+.opener-image {
+    padding: 0;
+}
+
 .social {
     margin-bottom: 2rem;
 }
