@@ -6,12 +6,13 @@
     --ff-heading: 'Noto Serif', serif;
 
     
-    --clr-text: #afad88;
-    --clr-dark: #2A2927;
+    --clr-boop: #ad7868;
+    --clr-dark: #292a27;
     --clr-backgrndblock: #cccece;
     --clr-bright: #ffffff;
     --clr-middle: #53534d;
     --clr-light: #f1f1f0;
+    --clr-greene: rgb(90, 138, 51);
 
     --fs-xl: 5rem;
     --fs-600: 1.5rem; 
@@ -80,6 +81,11 @@ section {
     padding: 1rem;
     background-color: var(--clr-bright);
     display: grid;
+    box-shadow: .25rem .25rem .5rem gray;
+}
+
+.cardwho {
+    box-shadow: .25rem .25rem .5rem rgb(110, 71, 61);
 }
 
 .center {
@@ -113,7 +119,7 @@ section {
     border-radius: 50%;
 }
 
-.fa-instagram {
+.fa-instagram  {
     background: var(--clr-middle);
     color: var(--clr-light);
 }
@@ -226,13 +232,13 @@ section {
     background-color: var(--clr-backgrndblock);
 }
 
-.what .heading, .what .subheading, {
-    color: var(--clr-text);
+.who {
+    background-color: var(--clr-boop);
+    padding-bottom: 5rem;
 }
 
-.who {
-    background-color: var(--clr-bright);
-    padding-bottom: 5rem;
+.who h1, .who h2 {
+    color: var(--clr-light);
 }
 
 #slogan {
