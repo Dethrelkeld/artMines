@@ -202,11 +202,16 @@ section {
     text-align: center;
 }
 .opener {
-    margin-bottom: 0;
+    background-image: url("./photos/portfolio/murals/googlemural_1.jpg");
+    min-height: 18rem;
+    height: min-content;
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
 }
 
 .opener-image {
-    padding: 0;
+    visibility: hidden;  
 }
 
 .social {
@@ -248,6 +253,12 @@ section {
 #slogan {
     color: var(--clr-dark);
     margin: 3rem 1rem 3rem;
+}
+
+@media (min-width: 30em) {
+    .opener {
+        background-size: cover;   
+    }
 }
 
 @media (min-width: 40em) {
