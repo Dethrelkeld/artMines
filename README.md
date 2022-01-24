@@ -2,16 +2,18 @@
 
 [https://www.theartmines.jpg](https://www.theartmines.com)
 
-[![screenshot of website](/photos/front/artminesheader.jpg)]
+![screenshot of website](artminesheader.jpg)"Start of the Art Mines website"
+
 
 ---
+
+This is a website for an art business, built using only html and css, and deployed with netlify.
 
 > ### User Story
 > 
 > As a user, we want a site to represent an actual working business, the Art Mines, as a static site hosting our portfolio.  
 > As an experiment to minimize technical debt and increase ease of build and use we want it to be built within certain parameters.
 
----
 
 ### Specifications:
 
