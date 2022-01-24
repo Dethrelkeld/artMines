@@ -72,8 +72,8 @@ section {
     font-family: var(--ff-heading);
     font-size: var(--fs-400);
     border: none;
-    box-shadow: .25rem .25rem .45rem rgb(36, 36, 36);
-    
+    box-shadow: .25rem .25rem .5rem rgb(78, 78, 78);
+    border-radius: .1rem;
     
 }
 
