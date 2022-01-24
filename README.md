@@ -2,7 +2,7 @@
 
 [https://www.theartmines.jpg](https://www.theartmines.com)
 
-![screenshot of website](artminesheader.jpg)"Start of the Art Mines website"
+![screenshot of website](artminesheader.JPG)
 
 
 ---
