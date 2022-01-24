@@ -1,6 +1,6 @@
 # TheArtMines
 
-[https://www.theartmines.jpg](https://www.theartmines.com)
+[https://www.theartmines.com](https://www.theartmines.com)
 
 ![screenshot of website](artminesheader.JPG)
 
