@@ -1,6 +1,6 @@
 # TheArtMines
 
-[the art mines](https://www.theartmines.com)
+[https://www.theartmines.jpg](https://www.theartmines.com)
 
 [![screenshot of website](/photos/front/artminesheader.jpg)]
 
@@ -18,8 +18,8 @@
 - It must be scratch built
 - No frameworks
 - It must be responsive
-- Mobile first
-- eloquent min-width media queries
+- Mobile First development 
+- Eloquent min-width media queries
 - Avoid javascript
 - Use responsive/relative css units
 
