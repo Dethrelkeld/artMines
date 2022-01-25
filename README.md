@@ -22,7 +22,6 @@ This is a website for an art business, built using only html and css, and deploy
 - It must be responsive
 - Mobile First development 
 - Eloquent min-width media queries
-- Avoid javascript
 - Use responsive/relative css units
 
 --- 
