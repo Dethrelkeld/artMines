@@ -319,5 +319,7 @@ section {
     }
 }
 
-
+@media screen and (prefers-reduced-motion: reduce) {
+    .animate { animation: none !important; }
+}
 

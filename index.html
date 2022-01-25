@@ -66,7 +66,8 @@
                 <div class="card cardwho">
                     <p>If you need an art solution for your client, your business or your residence, you are in good
                         hands and good company. Whether you need hundreds of pieces to fill a whole building or you
-                        just have one specific piece in mind, we deliver artistic solutions with business to business ease. 
+                        just have one specific piece in mind, we deliver artistic solutions with business to business
+                        ease.
                     </p><br>
                     <h3 class="subheading">Clients include:</h3>
                     <div class="logos">
@@ -106,8 +107,7 @@
 
                     </div>
                     <div class="whatimg">
-                        <img class="image" src="./photos/front/loopscollage.jpg"
-                            alt="renderings and completed work">
+                        <img class="image" src="./photos/front/loopscollage.jpg" alt="renderings and completed work">
 
                     </div>
 
@@ -137,6 +137,22 @@
         </footer>
 
     </div>
+    <script>
+        const observer = new IntersectionObserver(entries => {
+            // Loop over the entries
+            entries.forEach(entry => {
+                // If the element is visible
+                if (entry.isIntersecting) {
+                    // Add the animation class
+                    entry.target.classList.add('animate');
+                }
+            });
+        });
+
+        observer.observe(document.querySelector('.cardwhat'));
+        observer.observe(document.querySelector('.cardwho'));
+        observer.observe(document.querySelector('.cardhow'));
+    </script>
 
 
 </body>
