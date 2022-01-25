@@ -191,6 +191,7 @@ section {
     padding: .5em;
     margin-bottom: .5em;
     
+    
 }
 
 .logos {
@@ -298,6 +299,10 @@ section {
     .logos {
         grid-template-columns: 20% 20% 20% 20% 20%;
     }
+
+    #logomines {
+        max-width: 60%;
+    }
 }
 
 @media (min-width: 60em) {
@@ -317,6 +322,11 @@ section {
     .logos {
         grid-template-columns:  10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     }
+
+    #logomines {
+        max-width: 45%;
+    }
+
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
