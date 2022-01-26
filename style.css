@@ -131,7 +131,7 @@ section {
 .cardport {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .cardwho {
@@ -242,12 +242,14 @@ section {
 
 .img-wrapper > .content  {
     position: absolute;
+    inset: 0;
     font-size: var(--fs-400);
     /* padding: 1rem; */
     background: rgba(255, 255, 255, 0.4);
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .img-wrapper > img,
@@ -256,7 +258,7 @@ section {
 
 }
 
-/* .img-wrapper > .content.fade {
+.img-wrapper > .content.fade {
     opacity: 0;
 }
 
@@ -264,9 +266,10 @@ section {
     opacity: 1;
 } */
 
-/* .img-wrapper:hover > img.gray {
+.img-wrapper:hover > img.gray {
     filter: grayscale(1);
-} */
+    /* filter: blur(3px); */
+}
 
 .indlogo {
     padding: 1rem;
