@@ -192,12 +192,6 @@ section {
     margin: 1rem;
 }
 
-/* .gray {
-    aspect-ratio: 1 / 1;
-    max-width: 100%;
-    height: auto;
-} */
-
 .grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -262,14 +256,7 @@ section {
     opacity: 0;
 }
 
-.img-wrapper:hover > .content.fade {
-    opacity: 1;
-} */
 
-.img-wrapper:hover > img.gray {
-    filter: grayscale(1);
-    /* filter: blur(3px); */
-}
 
 .indlogo {
     padding: 1rem;
@@ -341,7 +328,7 @@ section {
 
 .what {
     background-color: var(--clr-backgrndblock);
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 
 .who {
@@ -418,6 +405,15 @@ section {
 
     .logomines {
         max-width: 45%;
+    }
+
+    .img-wrapper:hover > .content.fade {
+        opacity: 1;
+    } 
+    
+    .img-wrapper:hover > img.gray {
+        /* filter: grayscale(1); */
+        filter: blur(1px);
     }
 
 }
