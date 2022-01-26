@@ -192,11 +192,11 @@ section {
     margin: 1rem;
 }
 
-.gray {
+/* .gray {
     aspect-ratio: 1 / 1;
     max-width: 100%;
-    /* height: auto; */
-}
+    height: auto;
+} */
 
 .grid {
     display: grid;
@@ -224,7 +224,7 @@ section {
     padding: .5rem;  
 }
 
-img-wrapper {
+.img-wrapper {
     position: relative;
     overflow: hidden;
     max-width: 100%;
@@ -232,7 +232,7 @@ img-wrapper {
     
 }
 
-img-wrapper > img {
+.img-wrapper > img {
     display: block;
     width: 100%;
     aspect-ratio: 1 / 1;
@@ -242,7 +242,6 @@ img-wrapper > img {
 
 .img-wrapper > .content  {
     position: absolute;
-    
     font-size: var(--fs-400);
     /* padding: 1rem; */
     background: rgba(255, 255, 255, 0.4);
