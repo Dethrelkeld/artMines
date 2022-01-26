@@ -27,21 +27,114 @@
         <main>
             <section class="what">
                 <h1 class="heading">PORTFOLIO</h3>
-                <h2 class="subheading">Sculptural Art</h2>
-                    <div class="card cardportfolio">
-
+                    <h2 class="subheading">Sculptural Art</h2>
+                    <div class="card cardsculpt">
+                        <div class="grid">
+                            <div class="img-wrapper">
+                                <img src="https://picsum.photos/500?random=1" alt="">
+                                <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                                    vitae obcaecati tenetur, magni at unde ad doloremque quaerat voluptate delectus.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="img-wrapper">
+                                <img src="https://picsum.photos/500?random=2" alt="">
+                                <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                                    vitae obcaecati tenetur, magni at unde ad doloremque quaerat voluptate delectus.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="img-wrapper">
+                                <img src="https://picsum.photos/500?random=3" alt="">
+                                <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                                    vitae obcaecati tenetur, magni at unde ad doloremque quaerat voluptate delectus.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="img-wrapper">
+                                <img src="https://picsum.photos/500?random=4" alt="">
+                                <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                                    vitae obcaecati tenetur, magni at unde ad doloremque quaerat voluptate delectus.
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                <h2 class="subheading">Paintings</h2>
-                    <div class="card cardportfolio">
-
+                    <h2 class="subheading">Paintings</h2>
+                    <div class="card cardpaint">
+                        <div class="grid">
+                            <div class="img-wrapper">
+                                <img src="https://picsum.photos/500?random=5" alt="">
+                                <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                                    vitae obcaecati tenetur, magni at unde ad doloremque quaerat voluptate delectus.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="img-wrapper">
+                                <img src="https://picsum.photos/500?random=6" alt="">
+                                <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                                    vitae obcaecati tenetur, magni at unde ad doloremque quaerat voluptate delectus.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="img-wrapper">
+                                <img src="https://picsum.photos/500?random=7" alt="">
+                                <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                                    vitae obcaecati tenetur, magni at unde ad doloremque quaerat voluptate delectus.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="img-wrapper">
+                                <img src="https://picsum.photos/500?random=8" alt="">
+                                <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                                    vitae obcaecati tenetur, magni at unde ad doloremque quaerat voluptate delectus.
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                <h2 class="subheading">Murals</h2>
-                    <div class="card cardportfolio">
-
+                    <h2 class="subheading">Murals</h2>
+                    <div class="card cardmural">
+                        <div class="grid">
+                            <div class="img-wrapper">
+                                <img src="https://picsum.photos/500?random=9" alt="">
+                                <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                                    vitae obcaecati tenetur, magni at unde ad doloremque quaerat voluptate delectus.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="img-wrapper">
+                                <img src="https://picsum.photos/500?random=10" alt="">
+                                <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                                    vitae obcaecati tenetur, magni at unde ad doloremque quaerat voluptate delectus.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="img-wrapper">
+                                <img src="https://picsum.photos/500?random=11" alt="">
+                                <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                                    vitae obcaecati tenetur, magni at unde ad doloremque quaerat voluptate delectus.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="img-wrapper">
+                                <img src="https://picsum.photos/500?random=12" alt="">
+                                <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                                    vitae obcaecati tenetur, magni at unde ad doloremque quaerat voluptate delectus.
+                                </div>
+                            </div>
+                        </div>
                     </div>
         </main>
         <!-- The meat of the page with actual content -->
-    
+
         <!-- Footer -->
         <footer class="footer">
             <div class="contact">
@@ -59,8 +152,24 @@
             <p class="copy">copyright 2021 Dave Threlkeld</p>
         </footer>
     </div>
-    
-    
+    <script>
+        const observer = new IntersectionObserver(entries => {
+            // Loop over the entries
+            entries.forEach(entry => {
+                // If the element is visible
+                if (entry.isIntersecting) {
+                    // Add the animation class
+                    entry.target.classList.add('animate');
+                }
+            });
+        });
+
+        observer.observe(document.querySelector('.cardsculpt'));
+        observer.observe(document.querySelector('.cardpaint'));
+        observer.observe(document.querySelector('.cardmural'));
+    </script>
+
+
 </body>
 
 </html>

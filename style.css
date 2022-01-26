@@ -128,11 +128,6 @@ section {
     box-shadow: .25rem .25rem .5rem gray;
 }
 
-.cardportfolio {
-    
-    
-}
-
 .cardwho {
     box-shadow: .25rem .25rem .5rem rgb(110, 71, 61);
 }
@@ -191,6 +186,12 @@ section {
     margin: 1rem;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    gap: 1rem;
+}
+
 .grid-container {
     display: grid;
 }
@@ -212,6 +213,38 @@ section {
     padding: .5rem;  
 }
 
+img-wrapper {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+img-wrapper > img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-wrapper > .content  {
+    position: relative;
+    inset: 0;
+    font-size: 1rem;
+    background: 255, 255, 255, .4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-wrapper > img,
+.img-wrapper > .content {
+    transition: 200ms ease-in-out;
+
+}
+
 .indlogo {
     padding: 1rem;
 }
@@ -225,14 +258,14 @@ section {
 
 .logos {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: repeat(3, 1fr);
     padding-top: 1rem;
 }
 
 .nav {
     margin: 0 .5rem 2rem;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: repeat(4, 1fr);
     max-width: 60rem;
     
 }
