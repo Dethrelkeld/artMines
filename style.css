@@ -14,10 +14,10 @@
     --clr-light: #f1f1f0;
     --clr-greene: rgb(90, 138, 51);
 
-    --fs-xl: 5rem;
-    --fs-600: 1.5rem; 
-    --fs-500: 1rem;
-    --fs-400: 1rem;
+    --fs-xl: 3rem;
+    --fs-600: 1.75rem; 
+    --fs-500: 1.45rem;
+    --fs-400: 1.125rem;
     --fs-300: .8rem;
 
 }
@@ -46,13 +46,14 @@ i {
 
 li {
     padding-bottom: 1rem;
+    font-size: var(--fs-400);
 }
 
 p {
     margin: .5rem .5rem .5rem;
     color:  var(--clr-dark);
     text-align: center;
-    font-size: var(--fs-500);
+    font-size: var(--fs-400);
 }
 
 section {
@@ -120,6 +121,36 @@ section {
     
 }
 
+.bttn {
+    text-decoration: none;
+    font-family: var(--ff-heading);
+    font-size: var(--fs-600);
+    color: var(--clr-dark);
+    min-height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bttnsculpt {
+    background-image: url("./photos/portfolio/Sculptural Art/carmenita.jpg");
+}
+
+.bttnpaint {
+    background-image: ;
+}
+
+.bttnmural {
+    background-image: ;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+
 .card {
     margin: 1rem;
     padding: 1rem;
@@ -142,6 +173,20 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.choice {
+    background-color: var(--clr-middle);
+    padding-bottom: 3rem;
+    box-shadow: 0rem .125rem .25rem var(--clr-middle);
+}
+
+.choice > .card {
+    box-shadow: .25rem .25rem .5rem #353530;
+}
+
+.choice h1, .choice h2 {
+    color: var(--clr-light)
 }
 
 .contact h2{
@@ -210,6 +255,7 @@ section {
 
 .how {
     background-color: var(--clr-light);
+    box-shadow: 0rem .125rem .25rem var(--clr-light);
 }
 
 .image {
@@ -313,7 +359,7 @@ section {
 
 .subheading {
     font-family: 'Dosis', sans-serif;
-    font-size: var(--fs-600);
+    font-size: var(--fs-500);
     font-style: italic;
     margin-bottom: 1.5rem;
     text-align: center;
@@ -328,12 +374,14 @@ section {
 
 .what {
     background-color: var(--clr-backgrndblock);
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
+    box-shadow: 0rem .125rem .25rem var(--clr-backgrndblock);
 }
 
 .who {
     background-color: var(--clr-boop);
     padding-bottom: 5rem;
+    box-shadow: 0rem .125rem .25rem var(--clr-boop);
 }
 
 .who h1, .who h2 {
@@ -356,7 +404,7 @@ section {
 
 @media (min-width: 40em) {
     :root {
-        --fs-xl: 7rem;
+        --fs-xl: 3rem;
         --fs-600: 2rem;
         --fs-500: 1.5rem;
         --fs-400: 1.125rem;
@@ -383,10 +431,10 @@ section {
 
 @media (min-width: 60em) {
     :root {
-        --fs-xl: 9rem;
-        --fs-600: 3rem;
-        --fs-500: 1.5rem;
-        --fs-400: 1.25rem;
+        --fs-xl: 3rem;
+        --fs-600: 2rem;
+        --fs-500: 1.75rem;
+        --fs-400: 1.5rem;
         
     }
 
