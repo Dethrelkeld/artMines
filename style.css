@@ -46,7 +46,6 @@ i {
 
 li {
     padding-bottom: 1rem;
-    font-size: var(--fs-400);
 }
 
 p {
@@ -302,17 +301,13 @@ section {
     opacity: 0;
 }
 
-
-
 .indlogo {
     padding: 1rem;
 }
 
 .logo {
     padding: .5em;
-    margin-bottom: .5em;
-    
-    
+    margin-bottom: .5em;  
 }
 
 .logos {
@@ -354,7 +349,7 @@ section {
 }
 
 .steps {
-    font-size: var(--fs-500);
+    font-size: var(--fs-400);
 }
 
 .subheading {
