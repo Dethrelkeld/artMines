@@ -133,15 +133,24 @@ section {
 }
 
 .bttnsculpt {
-    background-image: url("./photos/portfolio/Sculptural Art/carmenita.jpg");
+    background-image: url("./photos/portfolio/Sculptural Art/Harbourtea1.jpg");
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    background-position: center center;
 }
 
 .bttnpaint {
-    background-image: ;
+    background-image: url("./photos/portfolio/paintings/Thrive\ Abstract_2.jpg");
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    background-position: center center;
 }
 
 .bttnmural {
-    background-image: ;
+    background-image: url("./photos/portfolio/murals/GoogleShippingContainer11.jpg");
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    background-position: center center;
 }
 
 .button-grid {
@@ -349,6 +358,7 @@ section {
 }
 
 .steps {
+    padding-inline-start: 1rem;
     font-size: var(--fs-400);
 }
 
