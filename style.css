@@ -122,6 +122,7 @@ section {
 
 .bttn {
     text-decoration: none;
+    text-shadow: 0rem .125rem .75rem white;
     font-family: var(--ff-heading);
     font-size: var(--fs-600);
     color: var(--clr-dark);
@@ -140,7 +141,7 @@ section {
 }
 
 .bttnpaint {
-    background-image: url("./photos/portfolio/paintings/Thrive\ Abstract_2.jpg");
+    background-image: url("./photos/portfolio/paintings/Thrive\ Abstract_1.jpg");
     background-size: 100% auto;
     background-repeat:no-repeat;
     background-position: center center;
