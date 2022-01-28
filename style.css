@@ -122,10 +122,10 @@ section {
 
 .bttn {
     text-decoration: none;
-    text-shadow: 0rem .125rem .75rem white;
+    text-shadow:.05rem .05rem 0.25rem var(--clr-dark);
     font-family: var(--ff-heading);
     font-size: var(--fs-600);
-    color: var(--clr-dark);
+    color: var(--clr-bright);
     min-height: 7rem;
     display: flex;
     justify-content: center;
@@ -141,14 +141,14 @@ section {
 }
 
 .bttnpaint {
-    background-image: url("./photos/portfolio/paintings/Thrive\ Abstract_1.jpg");
+    background-image: url("./photos/portfolio/paintings/Thrive\ Abstract_2.jpg");
     background-size: 100% auto;
     background-repeat:no-repeat;
     background-position: center center;
 }
 
 .bttnmural {
-    background-image: url("./photos/portfolio/murals/GoogleShippingContainer11.jpg");
+    background-image: url("./photos/portfolio/murals/GoogleMural3.jpg");
     background-size: 100% auto;
     background-repeat:no-repeat;
     background-position: center center;
