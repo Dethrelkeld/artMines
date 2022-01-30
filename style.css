@@ -131,7 +131,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    box-shadow: .125rem .125rem .3rem rgb(77, 77, 77);
+    box-shadow: .125rem .125rem .25rem rgb(117, 117, 117);
 }
 
 .bttnsculpt {
