@@ -131,10 +131,11 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
+    box-shadow: .125rem .125rem .3rem rgb(77, 77, 77);
 }
 
 .bttnsculpt {
-    background-image: url("./photos/portfolio/Sculptural Art/Harbourtea1.jpg");
+    background-image: url("./photos/portfolio/Sculptural Art/Harbour\ citadel_2.jpg");
     background-size: 100% auto;
     background-repeat:no-repeat;
     background-position: center center;
@@ -192,6 +193,7 @@ section {
 
 .choice > .card {
     box-shadow: .25rem .25rem .5rem #353530;
+    background-color: var(--clr-light);
 }
 
 .choice h1, .choice h2 {
