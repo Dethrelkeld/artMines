@@ -352,6 +352,15 @@ section {
     background-repeat: no-repeat;
 }
 
+.openerabout {
+    background-image: url("./photos/front/edit2.jpg");
+    min-height: 18rem;
+    height: min-content;
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
 .opener-image {
     visibility: hidden;  
 }
