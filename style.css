@@ -235,6 +235,22 @@ section {
     text-align: center;
 }
 
+.headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    height: auto;
+    padding: .5rem;
+    
+}
+
+.headshotcard {
+    display: grid;
+    margin-bottom: 1rem; 
+}
+
 .how {
     background-color: var(--clr-light);
     box-shadow: 0rem .125rem .25rem var(--clr-light);
@@ -340,6 +356,12 @@ section {
     margin-bottom: 2rem;
 }
 
+.social-link {
+    text-align: center;
+    text-decoration: none;
+    color: maroon;
+}
+
 .steps {
     padding-inline-start: 1rem;
     font-size: var(--fs-400);
@@ -387,6 +409,9 @@ section {
     }
     .cardport {
         grid-template-columns: repeat(3, 1fr);
+    }
+    .headshot {
+        max-width: 70%;
     }
 }
 
