@@ -339,9 +339,9 @@ section {
 .numberheading {
     font-family: var(--ff-heading); 
     font-size: var(--fs-500);
-    margin-bottom: 2rem; 
-    text-decoration-line: underline; 
+    color: var(--clr-middle); 
     text-align: center;
+    margin-bottom: 0;
 }
 
 .numberimage {
@@ -354,9 +354,19 @@ section {
     margin-bottom: auto;
 }
 
+.numbersubheading {
+    font-family: 'Dosis', sans-serif;
+    font-size: var(--fs-500);
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+    text-align: center; 
+}
+
 .numbertext {
     margin-top: auto;
     margin-bottom: auto;
+    padding-top: 2rem;
 }
 
 .opener {
