@@ -76,18 +76,6 @@ section {
     }
 }
 
-.big1 {
-    
-}
-
-.big2 {
-
-}
-
-.big3 {
-
-} 
-
 .btn {
     display: inline-block;
     background-color: var(--clr-middle);
@@ -150,6 +138,11 @@ section {
     background-color: var(--clr-bright);
     display: grid;
     box-shadow: .25rem .25rem .5rem gray;
+}
+.cardhire {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .cardport {
@@ -342,6 +335,30 @@ section {
     font-size: var(--fs-300);
     text-align: center;
 }
+
+.numberheading {
+    font-family: var(--ff-heading); 
+    font-size: var(--fs-500);
+    margin-bottom: 2rem; 
+    text-decoration-line: underline; 
+    text-align: center;
+}
+
+.numberimage {
+    max-width: 18rem;
+    height: auto;
+    padding: .5rem; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.numbertext {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .opener {
     background-image: url("./photos/front/googlemural1.jpg");
     min-height: 18rem;
@@ -419,9 +436,15 @@ section {
     .opener {
         background-size: cover;   
     }
+
+    .cardhire {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .cardport {
         grid-template-columns: repeat(3, 1fr);
     }
+
     .headshot {
         max-width: 70%;
     }
