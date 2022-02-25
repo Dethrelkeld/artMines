@@ -345,7 +345,6 @@ section {
 }
 
 .numberimage {
-    background-image: radial-gradient(rgb(151, 151, 151) 20%, rgb(212, 212, 212) 2%, white 75%);
     max-width: 18rem;
     height: auto;
     padding: .5rem; 
