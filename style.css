@@ -159,7 +159,6 @@ section {
 }
 .cardhire {
     display: grid;
-    gap: 1rem;
     grid-template-columns: repeat(1, 1fr);
 }
 
@@ -458,7 +457,7 @@ section {
     }
 
     .cardhire {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .cardport {
