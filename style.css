@@ -229,6 +229,7 @@ section {
     text-align: center;
     font-family: var(--ff-heading);
     padding-top: 3em;
+    max-width: 100%;
 }
 
 .footer li{
@@ -271,6 +272,24 @@ section {
 .headshotcard {
     display: grid;
     margin-bottom: 1rem; 
+}
+
+.hirecloser {
+    background-image: url("./photos/front/davebeads.jpg");
+    min-height: 18rem;
+    height: min-content;
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.hireopener {
+    background-image: url("./photos/front/carmenitarendering.jpg");
+    min-height: 18rem;
+    height: min-content;
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
 }
 
 .how {
@@ -482,7 +501,11 @@ section {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    
+    .grid-container {
+        max-width: 45em;
+        margin: auto;
+    }
+
     .nav-link {
         font-size: var(--fs-400);
     }
