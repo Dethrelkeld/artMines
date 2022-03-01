@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Forum&family=Red+Hat+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@0;1&display=swap');
 
 :root {
     --ff-body: "Red Hat Text", sans-serif;
@@ -419,6 +420,17 @@ section {
     visibility: hidden;  
 }
 
+.quote {
+    font-size: var(--fs-400);
+    font-family: 'Source Serif Pro', serif;
+    font-style: italic;
+}
+
+.quotee {
+    font-size: var(--fs-400);
+    font-family: 'Source Serif Pro', serif;
+}
+
 .social {
     margin-bottom: 2rem;
 }
@@ -485,6 +497,14 @@ section {
 
     .headshot {
         max-width: 70%;
+    }
+
+    .quote {
+        font-size: var(--fs-500);
+    }
+
+    .quotee {
+        font-size: var(--fs-500);
     }
 }
 
